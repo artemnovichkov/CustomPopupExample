@@ -17,7 +17,7 @@ struct BottomPopupView<Content: View>: View {
                     .background(Color.white)
                     .cornerRadius(radius: 16, corners: [.topLeft, .topRight])
             }
-            .edgesIgnoringSafeArea([.top, .bottom])
+            .edgesIgnoringSafeArea([.bottom])
         }
         .animation(.easeOut)
         .transition(.move(edge: .bottom))
