@@ -1,7 +1,7 @@
 
 # Custom Popup Example
 
-An example project for [Implementing custom popups in SwiftUI](https://blog.artemnovichkov.com/editor/custom-popups-in-swiftui) article.
+An example project for [Implementing custom popups in SwiftUI](https://artemnovichkov.com/blog/custom-popups-in-swiftui) article.
 
 <p align="center"/>
   <img src=".github/screenshot.png" width="50%"/>
