@@ -7,15 +7,15 @@ import SwiftUI
 struct OverlayModifier<OverlayView: View>: ViewModifier {
     
     @Binding var isPresented: Bool
-    @ViewBuilder var overlayView: () -> OverlayView
+    let overlayView: OverlayView
     
     init(isPresented: Binding<Bool>, @ViewBuilder overlayView: @escaping () -> OverlayView) {
         self._isPresented = isPresented
-        self.overlayView = overlayView
+        self.overlayView = overlayView()
     }
     
     func body(content: Content) -> some View {
-        content.overlay(isPresented ? overlayView() : nil)
+        content.overlay(isPresented ? overlayView : nil)
     }
 }
 
