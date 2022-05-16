@@ -3,6 +3,8 @@
 
 An example project for [Implementing custom popups in SwiftUI](https://artemnovichkov.com/blog/custom-popups-in-swiftui) article.
 
+[![Build](https://github.com/artemnovichkov/CustomPopupExample/actions/workflows/build.yml/badge.svg)](https://github.com/artemnovichkov/CustomPopupExample/actions/workflows/build.yml)
+
 <p align="center"/>
   <img src=".github/screenshot.png" width="50%"/>
 </p>
