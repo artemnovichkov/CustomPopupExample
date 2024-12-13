@@ -12,7 +12,7 @@ An example project for [Implementing custom popups in SwiftUI](https://artemnovi
 
 ## Author
 
-Artem Novichkov, https://www.artemnovichkov.com/about
+Artem Novichkov, https://www.artemnovichkov.com/
 
 ## License
 
